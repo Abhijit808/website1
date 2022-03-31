@@ -112,22 +112,17 @@
 }
 
 
-@media screen and(max-width:479px) {
-    .gallery-page-img-container {
-        width: 20rem;
-    }
-    /* .gallery-page-img-container{
-        max-width: 19rem;
-    } */
-    .gallery-page-container {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        /* justify-items: center; */
-    }
-}
-
 @media screen and (max-width:510PX) {
+    .gallery-page-container {
+        grid-template-columns: repeat(auto-fit, minmax(33%, 22rem));
+    }
     .gallery-page-img-container {
        max-width: 20rem;
     }
 }
+        @media screen and (max-width:361px){
+            .gallery-page-img-container {
+               max-width:max(17rem,15em) ;
+            }
+            
+        }
