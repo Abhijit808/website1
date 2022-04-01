@@ -32,7 +32,7 @@
     width: inherit;
     box-shadow: 2px 0 10px #000;
 }
-@media screen and (min-width:600px) and (max-width:991px) {
+@media screen and (min-width:769px) and (max-width:991px) {
     .gallery-page-img-container {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -46,7 +46,7 @@
         aspect-ratio: 4/1;
     }
 }
-@media screen and (max-width:599px) {
+@media screen and (max-width:768px) {
     .gallery-page-img-container {
         grid-template-columns: repeat(1, 1fr);
     }
